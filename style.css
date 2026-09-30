@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 800px;
+}
+
+header {
+    padding: 32px;
+}
+
+.header-nav {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main {
+    padding: 32px;
+
+}
+
+.main-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#icon {
+    width: 8%;
+    height: 8%;
+    border-radius: 50px;
+    border: solid blue;
+    margin: auto;
+}
+
+.main-mid {
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+}
