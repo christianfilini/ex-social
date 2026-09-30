@@ -38,7 +38,21 @@ main {
     margin: auto;
 }
 
-.main-mid {
+.footer-img {
     display: grid;
-    grid-template-columns: 20% 40% 20%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 40px;
+}
+
+.box1 {
+    background-color: blue;
+    height: 500px;
+}
+
+.box2 {
+    background-color: rgb(255, 0, 55);
+}
+
+.box3 {
+    background-color: rgb(9, 255, 0);
 }
