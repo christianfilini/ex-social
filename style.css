@@ -38,6 +38,69 @@ main {
     margin: auto;
 }
 
+.main-mid {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.user {
+    margin: 0 auto;
+    min-width: 800px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.numbers {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.follow {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: rgba(184, 156, 156, 0.911);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.red {
+    background-color: rgb(192, 59, 103);
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid black;
+}
+
 .footer-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
