@@ -79,6 +79,7 @@ main {
     padding-top: 40px;
     flex-grow: 1;
     gap: 15px;
+    padding-bottom: 40px;
 }
 
 .red {
@@ -101,21 +102,44 @@ main {
     border: solid black;
 }
 
+
+.info {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
 .footer-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 40px;
+    grid-template-rows: 1fr 1fr;
+
 }
 
-.box1 {
-    background-color: blue;
-    height: 500px;
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+
 }
 
-.box2 {
-    background-color: rgb(255, 0, 55);
+.bi-grid {
+    border-bottom: solid black 1px;
+    width: 50px;
+    text-align: center;
 }
 
-.box3 {
-    background-color: rgb(9, 255, 0);
+
+.box1 {}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
